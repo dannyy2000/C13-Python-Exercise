@@ -1,10 +1,12 @@
 def contain(myList):
-    number = list(input("Enter the an elements in the list: "))
-    number.count(num)
+    num = ([2, 4, 5, 6, 7, 8])
+
+    if number in num:
+        return "True"
+    else:
+        return "False"
 
 
 if __name__ == '__main__':
-    num = [2, 4, 5, 6, 7, 8]
-    # number = input("Enter the an elements in the list")
-    # number = list(input("Enter the an elements in the list: "))
-    print(contain(num))
+    number = int(input("Enter the an elements in the list: "))
+    print(contain(number))

@@ -1,5 +1,7 @@
-if __name__ == '__main__':
-    lst = []
-    lst = [int(item) for item in input("Enter the numbers: ").split(",")]
+def digits(number):
+    return [number]
 
-    print(lst)
+
+if __name__ == '__main__':
+    numbers = int(input("Enter number: "))
+    print(digits(numbers))
